@@ -1,0 +1,466 @@
+统一字符集编码:
+1、编码分类:
+    设置Jsp文件的编码(jsp文件中pageEncoding属性):jsp->java
+    设置浏览器读取jsp文件的编码(jsp文件中content属性)
+    一般将上述设置成一致的编码,推荐使用UTF-8
+
+文本编码:
+        a、设置软件编码
+        b、设置某一项目
+        c、设置单独文件
+
+
+JSP的页面元素:HTML,XML
+1、脚本Scriptlet
+        a、
+        <%
+            局部变量,java语句;
+        %>
+        b、<%!
+               全局变量,定义方法;
+                  %>
+        c、
+            <%=输出表达式;
+            %>
+2、注意:out.println不能换行,换行需要用<br/>
+
+
+3、指令
+    page指令
+    <%@ page ...%>
+page指令的属性:
+language:jsp页面使用的脚本语言
+import:导入类
+pageEncoding:jsp文件自身编码
+contentType:浏览器解析的编码
+
+4、注释:
+    1、html注释(查看网页可以出现注释)
+    2、java注释
+    3、jsp注释<%--注释内容--%>
+
+5、JSP内置对象(自带的,不需要new 也能使用的对象)
+    out:输出对象,向客户端输出内容
+    、pageContext:
+    、request:请求对象,存储"客户端向服务端发送的请求信息"
+        request对象的常见方法:
+            String getParameter(String name):根据请求的字段名key(input标签name属性),返回字段值value(value属性值)
+            String[] getParameterValues(String name):根据key,返回多个字段值
+            void setCharacterEncoding("编码格式UTF-8"):设置post请求编码(tomcat8以后默认编码UTF-8,tomcat7以前默认iso-8859-1)
+            getRequestDispatcher().forward(request.response):请求转发的方式跳转页面
+            getServerContext():获取项目的ServletContext对象
+
+注册页面:
+register.jsp
+show.jsp
+    、response:
+    、session:
+    、appliance:
+    、config:
+    、page:
+    、exception:
+
+
+get提交方式:method  = "get" 和 地址栏、超链接、请求方法默认都属于get提交方式
+get和post请求方式的区别:
+a、get方式:在地址栏显示请求信息(地址栏显示信息有限(4-5kb,数据过大会报错))、post不显示
+b、文件上传操作,必须时post(推荐使用)
+
+
+同意请求编码request:
+get方式出现乱码,解决方法:
+a、统一每个变量的编码(不推荐)
+    使用getByte(),进行转码
+b、修改server.xml,一次性的更改tomcat默认编码get提交方式的编码(utf-8)
+
+post出现乱码,解决方法:
+request.setCharacterEncoding("编码格式UTF-8")
+
+
+response响应对象:
+提供的方法:
+void addCookie(Cookie cookie):服务端向客户端增加cookie对象
+void sendRedirect(String location):throws IOException:页面跳转的一种方式
+void setContextType(String type):设置服务端响应的编码(设置服务端的contentType类型)
+
+
+实例:
+登录(login.jsp)
+页面跳转:重定向,导致数据丢失,地址栏改变,不保留第一次请求时的数据,请求次数(2次)
+页面跳转:请求转发,可以获取到数据,并且地址栏没有改变(仍然保留转发时的地址),保留第一次请求时的数据,请求次数(1次)
+发生跳转的位置:
+a、重定向:客户端发出第二次跳转
+b、请求转发:服务端
+
+
+session(存在于服务端)
+Cookie(存在于客户端,不是内置对象,本地缓存):有服务端生成的,再发送给客户端,提高访问效率,安全性差
+    包含键值对,javax.servlet.http.Cookie;
+    public Cookie(String name,String value){}
+    对应的setter方法
+    void setMaxAge(int expiry):最大有效期(秒)
+
+
+服务端准备cookie:
+response.addCookie(Cookie cookie)
+页面跳转(转发,重定向)
+客户端获取cookie:request.getCookies()
+
+a、服务端增加cookie:response对象,客户端获取对象request对象
+b、不能获取第一对象,只能一次性获取全部cookies
+
+
+通过F12发现,除了自己设置的Cookie对象,还有一个name为JSESSIONID的cookie
+
+使用Cookie实现,自动记住用户名
+
+
+session:会话
+a、浏览网站: 开始->关闭
+b、购物: 浏览、付款、退出
+c、电子邮件: 浏览、写邮件、退出
+
+运行机制:
+客户端第一次请求服务端时,进行匹配(JSESSIONID = sessionID)服务端会产生一个session对象(用于保存该客户的信息)
+并且每个session对象,都会有一个唯一的sessionID(用于区分其他session)
+服务端又会产生cookie,并且该cookie的name = JSESSIONID,value = 服务端sessionId的值
+然后服务端会相应客户端的同时,将该cookie发送给客户端,至此,客户就有了一个cookie(JSESSIONID);
+客户端的cookie就可以和服务端的session一一对应(JSESSIONID - sessionID)
+
+
+客户端第二次/n次请求服务端时:
+服务端会先用客户端cookie中的JSESSIONID  去服务端的session中匹配sessionId,如果匹配成功（cookie  jsessionid和session sessionId），说明此用户 不是第一次访问,无需登录；
+
+eg:
+客户端:顾客
+服务端:存包处
+
+
+session机制:
+a、储存在服务端
+b、同一用户请求时共享
+c、实现机制:第一次客户请求时,产生一个sessionID并复制给cookie的JSESSIONID然后发给客户端,最终通过session的sessionID-cookie的JSESSIONID匹配
+
+
+session方法:
+getID():获取sessionID
+boolean isNew():判断是否为新用户
+void invalidate():使session失效(退出登录,注销)
+设置类型是Object setAttribute():设置属性
+返回的类型是:Object getAttribute():获取属性值
+void setMaxInactiveInternet(秒):设置最大有效非活动时间
+int getMaxInactiveInternet():获取最大有消费活动时间
+
+注意:
+request:只在同一次请求有效
+实例:
+登录界面
+
+
+
+            session和cookie的区别
+保存的位置    服务器    客户端
+安全性        安全     不安全
+保存的内容     Object  String
+
+
+application全局对象
+String getContext():获取虚拟路径
+String getRealPath(String name): 获取虚拟路径对应的绝对路径
+
+pageContext :当前页面有效(页面跳转后无效)
+request     :请求对象       同一次请求有效,其他请求无效
+session:同一次会话有效,跳转后仍有有效;关闭/切换浏览器后无效
+application :全局变量,整个项目期间都有效(切换浏览器,仍然有效),关闭服务,其他项目无效
+多个项目共享、重启后仍然有效:JNDI
+
+以上四个范围变量:通过setAttribute()赋值,通过getAttribute()取值
+以上范围对象,尽量是选取小范围的对象(对象范围越大,性能损耗越大)
+
+
+
+JDBC:
+JDBC API主要功能:
+    通过以下类/接口实现:
+    DriverManager:管理jdbc驱动
+    Connection:连接
+    Statement(PreparedStatement):增删改查
+    CallableStatement:调用数据库存储过程或存储函数
+    Result:返回的结果集
+
+JDBC访问数据库的具体步骤:
+a、导入驱动程序,加载具体的驱动类
+b、与数据库建立连接
+c、发送sql,执行
+d、处理结果集(查询)
+
+
+数据库驱动               驱动jar                                   具体的驱动类
+Oracle                  O jdbc-x.jar                            oracle.jdbc.OracleDriver
+Mysql                   mysql-connection-java-x.jar
+SqlServer               sql jdbc-x.jar
+
+
+使用jdbc操作数据库时,如果对数据库进行了更换,只需要更换:驱动、具体驱动类、连接字符串、数据库用户名、密码
+
+Statement操作数据库:
+增删改:executeUpdate()
+查询:executeQuery()
+
+
+PreparedStatement操作数据库:继承Statement
+增加了赋值语句:getXXX(),setXXX()
+步骤:
+1、先写sql
+2、后执行,不包括sql
+
+PreparedStatement与Statement的区别
+1、Statement
+    a、sql
+    b、executeUpdate(sql)
+2、PreparedStatement
+    a、sql(可能存在占位符?),在创建PreparedStatement对象时,将sql预编译, preparedStatement = connection.prepareStatement(sql);
+    b、executeUpdate(),不包含sql语句
+    c、通过setXXX(),替换占位符?
+        preparedStatement.setInt(1,12);
+        preparedStatement.setString(2,"张三")
+        preparedStatement.setString(3,"男");
+
+推荐使用PreparedStatement:
+1、编码更简洁,避免字符串的拼接
+2、可以提高性能(预编译执行一次,执行语句多次)
+3、安全(可以有效防止sql注入)
+eg: 用户名:任意值 ' or 1=1 --             --:注释符
+    密码:任意值
+原因:      sql注入:将客户输入的内容和开发人员的sql语句混为一体
+
+ResultSet:结果集
+next():光标下移,判断是否有下一条数据
+previous():true\false
+getXXX(字段名(或者位置)):获取具体的字段值
+
+
+jdbc总结:
+try
+{a、导入jar包、加载驱动类Class.forName("具体驱动类");
+b、与数据库建立连接connection = DriverManager.getConnection(...);
+c、通过connection,获取操作数据库对象(Statement\preparedStatement\callableStatement)
+    stmt  = connection.createStatement();
+d、(查询)处理结果集 rs = preparedStatement.executeQuery()
+while(rs.next())
+{
+    rs.getXXX();
+}}
+catch(ClassNotFoundException e)
+{...}
+catch(SQLException e)
+{...}
+catch(Exception e)
+{...}
+finally         //关闭资源,栈顺序(先开后关,后开先关)
+{...}
+
+
+具体代码:
+    private static final String URL = "jdbc:mysql://localhost:3306/jdbc_mysql?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true";
+    private static final String UserName = "root";
+    private static final String Pwd = "0518";
+
+    @Test
+    public void update() throws ClassNotFoundException, SQLException
+    {
+        Connection connection = null;
+        Statement statement = null;
+        try
+        {
+            //导入jar包
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            //与数据库建立连接
+            connection = DriverManager.getConnection(URL,UserName,Pwd);
+            //发送sql,执行(增删改、查)
+            statement = connection.createStatement();
+            //增删改操作
+            //            String sql = "insert into student values(4,'王玉','女',20)";            //增加一条数据集
+            String sql = "update student set studentId = 6 where studentName = '王玉'";           //修改操作
+            int count = statement.executeUpdate(sql);//返回值为增删改几条数据
+            if(count > 0)
+            {
+                System.out.println("操作成功!");
+            }
+        } catch(ClassNotFoundException e)
+        {
+            System.out.print("异常信息:");
+            e.printStackTrace();
+
+        } catch(SQLException throwables)
+        {
+            throwables.printStackTrace();
+        } finally
+        {
+            try
+            {
+                if(statement != null && connection != null)
+                {
+                    statement.close();
+                    connection.close();
+                }
+            } catch(SQLException throwables)
+            {
+                System.out.print("异常信息:");
+                throwables.printStackTrace();
+            }
+        }
+    }
+
+    @Test
+    //查询数据
+    public void query()
+    {
+        Connection connection = null;
+        Statement statement = null;
+        ResultSet rs = null;
+        try
+        {
+            //导入jar包
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            //与数据库建立连接
+            connection = DriverManager.getConnection(URL,UserName,Pwd);
+            //发送sql,执行(增删改、查)
+            statement = connection.createStatement();
+            //增删改操作
+            //            String sql = "insert into student values(4,'王玉','女',20)";            //增加一条数据集
+            //            String sql = "select studentId,studentName from student";           //修改操作
+            Scanner input = new Scanner(System.in);
+            System.out.println("请输入用户名:");
+            String Name = input.nextLine();
+            System.out.println("请输入密码:");
+            String Pwd = input.nextLine();
+            String sql = "select count(*) from login where uName ='" + Name + "' and uPwd ='" + Pwd + "' ";     //返回count(*),1为登入成功,-1为登入失败
+            rs = statement.executeQuery(sql);                      //返回查询集
+            int count = -1;
+            if(rs.next())
+            {
+                count = rs.getInt(1);
+            }
+            if(count > 0)
+            {
+                System.out.println("登入成功!");
+            }
+            else
+            {
+                System.out.println("登入失败!");
+            }
+            /*
+            System.out.println("查询信息如下:");
+            while(rs.next())
+            {
+                int studentId = rs.getInt("studentId");
+                String studentName = rs.getString("studentName");
+                System.out.println(studentId + "\t" + studentName);
+            }
+             */
+        } catch(ClassNotFoundException e)
+        {
+            System.out.print("异常信息:");
+            e.printStackTrace();
+
+        } catch(SQLException throwables)
+        {
+            throwables.printStackTrace();
+        } finally
+        {
+            try
+            {
+                if(statement != null && connection != null && rs != null)
+                {
+                    rs.close();
+                    statement.close();
+                    connection.close();
+                }
+            } catch(SQLException throwables)
+            {
+                System.out.print("异常信息:");
+                throwables.printStackTrace();
+            }
+        }
+    }
+
+
+jdbc中,除了Class.forName()抛出ClassNotFoundException,其余方法全部抛出SQLException
+
+
+CallableStatement:
+1、调用存储过程、存储函数   connection.prepareCall(存储过程|存储函数)
+    参数格式:
+       存储过程(无返回值return,用out参数代替)
+       {call 存储过程名(参数列表)}
+       存储函数(有返回值):
+       {? = call 存储函数名(参数列表)}
+   eg:
+       delimiter$$
+       create procedure getStudentName(in id int)
+       begin
+       select studentName from student
+       where student = id;
+       end $$
+       delimiter;
+
+
+    JDBC调用存储过程的步骤:
+    1、产生调用存储过程的对象(CallableStatement) cstmt = connection.prepareCall("sql")
+    2、通过setXXX()处理,输出参数值csmt.setInt(1,num);
+    3、通过registerOutParameter(...)处理输出参数类型
+    4、csmt.execute()执行
+    5、接受输出值(返回值),getXXX()
+2、调用存储函数
+    -- 创建存储函数
+    DROP FUNCTION IF EXISTS func_user;
+    CREATE FUNCTION func_user(in_id INT)
+    RETURNS VARCHAR(50)
+    BEGIN
+    	DECLARE out_name VARCHAR(50);
+
+    	SELECT name INTO out_name FROM tb_user
+    	WHERE id = in_id;
+
+    	RETURN out_name;
+    END;
+
+3、处理CLOB/BLOB类型
+    处理少打型数据:
+        a、存储路径
+            通过JDBC存储文件路径,然后根据IO操作处理
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+java/db/JDbc
+HTML/CSS/JS
+CS:客户端服务器架构模式
+优点:充分利用客户端机器的资源，减轻服务器的负荷
+    (一部分安全请求不高的计算任务存储在客户端执行，不需要把所有的计算和存储都放在
+     服务器端执行，从而能够减轻服务器的压力，也能够减轻网络负荷)
+缺点:需要安装，升级维护成本较高
+BS：浏览器服务器架构模式
+   优点：客服端不需要安装，维护成本较低
+   缺点：所有的计算和存储任务都在服务端的，服务器的负荷较重，在服务端计算完成之后把结果传回客户端，
+   因此客户端和服务端会进行非常频发的数据通道，从而网络负荷较重
