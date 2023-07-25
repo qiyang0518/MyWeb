@@ -9,7 +9,107 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c11552d6-2623-4c15-95ef-8e4a82161335" name="默认变更列表" comment="jdbc_mysql" />
+    <list default="true" id="c11552d6-2623-4c15-95ef-8e4a82161335" name="默认变更列表" comment="jdbc_mysql">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyWebProject02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyWebProject02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/servlet/ForwardC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/servlet/Response1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/servlet/Response2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/servlet/ResponseIOServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/a/b/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/artifacts/MyWebProject02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/Jsp笔记" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/MyWebProject02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/lib/junit-platform-commons-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/lib/junit-platform-engine-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/dao/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/dao/FruitDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/dao/FruitDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/demo/DemoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/ForwardC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/ParameterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/RequestAPIServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/Response1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/Response2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/ResponseIOServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/Servlet01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/Servlet02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/servlet/Servlet03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/src/main/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/MyWebProject02-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/dao/Fruit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/dao/FruitDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/dao/FruitDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/demo/DemoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/AddServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/ForwardC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/HelloServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/ParameterServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/RequestAPIServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/Response1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/Response2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/ResponseIOServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/Servlet01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/Servlet02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/servlet/Servlet03.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/classes/main/test/Test01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/web/a/b/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/web/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject03/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jsp笔记" beforeDir="false" afterPath="$PROJECT_DIR$/Jsp笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-params-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +119,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -64,6 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -73,111 +176,74 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyWebProject03" />
+    <property name="project.structure.last.edited" value="工件" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.22386059" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="project.structure.side.proportion" value="0.3243968" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject02\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject02\web" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject02\web\a\b" />
       <recent name="C:\Users\xml\Desktop\Test\MyWebProject02\web\path" />
       <recent name="C:\Users\xml\Desktop\Test\MyWebProject02\web" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcDemo_Clob.run">
-    <configuration name="JdbcDemo_CallableStatement.invokeProcedure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyWebProject02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbcProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbcProject" />
-      <option name="MAIN_CLASS_NAME" value="jdbcProject.JdbcDemo_CallableStatement" />
-      <option name="METHOD_NAME" value="invokeProcedure" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="Tomcat 服务器.pro2">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcDemo_CallableStatement.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test01.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyWebProject02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbcProject.*" />
+          <option name="PATTERN" value="main.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbcProject" />
-      <option name="MAIN_CLASS_NAME" value="jdbcProject.JdbcDemo_CallableStatement" />
-      <option name="METHOD_NAME" value="query" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcDemo_Clob.ClobDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyWebProject02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbcProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbcProject" />
-      <option name="MAIN_CLASS_NAME" value="jdbcProject.JdbcDemo_Clob" />
-      <option name="METHOD_NAME" value="ClobDemo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JdbcDemo_Clob.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyWebProject02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbcProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbcProject" />
-      <option name="MAIN_CLASS_NAME" value="jdbcProject.JdbcDemo_Clob" />
+      <option name="PACKAGE_NAME" value="main.test" />
+      <option name="MAIN_CLASS_NAME" value="main.test.Test01" />
       <option name="METHOD_NAME" value="run" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcDemo.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyWebProject02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbcProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbcProject" />
-      <option name="MAIN_CLASS_NAME" value="jdbcProject.JdbcDemo" />
-      <option name="METHOD_NAME" value="query" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.63" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.63" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/MyWebProject02" />
+    <configuration name="Tomcat 9.0.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/MyWebProject02/servlet/" />
       <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="MyWebProject02">
           <settings>
-            <option name="CONTEXT_PATH" value="/MyWebProject02_war_exploded" />
+            <option name="CONTEXT_PATH" value="/MyWebProject02" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="23655a56-3a16-4b40-b5cb-ac40271b766f" />
+        <option name="BASE_DIRECTORY_NAME" value="01ca5fc0-37e5-417a-bf2c-0aea3edc747d" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -185,7 +251,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8258" />
+        <option name="DEBUG_PORT" value="14708" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -237,21 +303,89 @@
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pro2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/MyWebProject02/servlet" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="MyWebProject02">
+          <settings>
+            <option name="CONTEXT_PATH" value="/MyWebProject02" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="5584f842-d36c-4558-a28f-443cda388749" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7091" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="MyWebProject02" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.JdbcDemo.query" />
-      <item itemvalue="JUnit.JdbcDemo_CallableStatement.query" />
-      <item itemvalue="JUnit.JdbcDemo_CallableStatement.invokeProcedure" />
-      <item itemvalue="JUnit.JdbcDemo_Clob.ClobDemo" />
-      <item itemvalue="JUnit.JdbcDemo_Clob.run" />
-      <item itemvalue="Tomcat 服务器.Tomcat 8.5.63" />
+      <item itemvalue="JUnit.Test01.run" />
+      <item itemvalue="Tomcat 服务器.pro2" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.76" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JdbcDemo_Clob.run" />
-        <item itemvalue="JUnit.JdbcDemo_Clob.ClobDemo" />
-        <item itemvalue="JUnit.JdbcDemo_CallableStatement.invokeProcedure" />
-        <item itemvalue="JUnit.JdbcDemo_CallableStatement.query" />
-        <item itemvalue="JUnit.JdbcDemo.query" />
+        <item itemvalue="JUnit.Test01.run" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +401,12 @@
       <workItem from="1685344798954" duration="18514000" />
       <workItem from="1688107664452" duration="1298000" />
       <workItem from="1688109334173" duration="1355000" />
-      <workItem from="1688111825238" duration="185000" />
+      <workItem from="1688111825238" duration="43881000" />
+      <workItem from="1688974482327" duration="1795000" />
+      <workItem from="1688976456143" duration="34000" />
+      <workItem from="1688976569790" duration="2318000" />
+      <workItem from="1689057735865" duration="8751000" />
+      <workItem from="1689125925889" duration="463000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc_mysql">
       <created>1685329189450</created>
@@ -296,7 +435,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="jdbc_mysql" />
     <option name="LAST_COMMIT_MESSAGE" value="jdbc_mysql" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

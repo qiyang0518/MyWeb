@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="book" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c11552d6-2623-4c15-95ef-8e4a82161335" name="默认变更列表" comment="jdbc_mysql">
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/artifacts/MyWebProject02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/MyWebProject02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/src/main/servlet/ForwardC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/src/main/servlet/Response1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/src/main/servlet/Response2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/src/main/servlet/ResponseIOServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/src/main/test/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/web/a/b/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject02/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jsp笔记" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/dao/impl/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/dao/impl/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/BookDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/JdbcUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/test/UserServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/web/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/web/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/com/web/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/cart/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/book_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/book_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/manager/order_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/order/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pages/user/regist_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/code.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/artifacts/EL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__com_alibaba_druid_1_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_apache_taglibs_taglibs_standard_spec_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/EL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/Jsp笔记" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/src/main/com/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/src/main/com/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/src/main/com/servlet/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/src/main/com/servlet/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/target/MyWebProject02-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/WEB-INF/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/b.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/c.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/core.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/d.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/file/下载.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/file/头像.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyWebProject04/web/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/Jsp笔记" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject02/Jsp笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/lib/junit-jupiter-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/lib/junit-jupiter-api-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/lib/junit-jupiter-engine-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/lib/junit-jupiter-params-5.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject02/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject02/web/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Jsp笔记" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\maven-repository" />
+        <option name="mavenHome" value="D:/Program Files/Maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="2QK2bFetRcqwh2iN9AGtuzztXDn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java_Web" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0923361" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject03\lib" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject02\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject03\src" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject03\src\main\resource" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject02\web" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWeb\MyWebProject02\web\a\b" />
+      <recent name="C:\Users\xml\Desktop\Test\MyWebProject02\web\path" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.com.test" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.com.test" />
+      <recent name="main.com.dao.impl" />
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn idea:idea" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BookDaoImplTest.deleteBookById">
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.com.TestDemo" />
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.deleteBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.com.test" />
+      <option name="MAIN_CLASS_NAME" value="main.com.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="deleteBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.com" />
+      <option name="MAIN_CLASS_NAME" value="main.com.TestDemo" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="book">
+          <settings>
+            <option name="CONTEXT_PATH" value="/book" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fb0358af-afbe-47af-a313-356b548c5d4d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5632" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="book" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestDemo.run" />
+      <item itemvalue="Tomcat 服务器.book" />
+      <item itemvalue="应用程序.TestDemo" />
+      <item itemvalue="JUnit.BookDaoImplTest.deleteBookById" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookDaoImplTest.deleteBookById" />
+        <item itemvalue="JUnit.TestDemo.run" />
+        <item itemvalue="应用程序.TestDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c11552d6-2623-4c15-95ef-8e4a82161335" name="默认变更列表" comment="" />
+      <created>1685088027970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685088027970</updated>
+      <workItem from="1685088031051" duration="45474000" />
+      <workItem from="1685344798954" duration="18514000" />
+      <workItem from="1688107664452" duration="1298000" />
+      <workItem from="1688109334173" duration="1355000" />
+      <workItem from="1688111825238" duration="43881000" />
+      <workItem from="1688974482327" duration="1795000" />
+      <workItem from="1688976456143" duration="34000" />
+      <workItem from="1688976569790" duration="2318000" />
+      <workItem from="1689057735865" duration="8751000" />
+      <workItem from="1689126431150" duration="5989000" />
+      <workItem from="1689227522871" duration="9743000" />
+      <workItem from="1689238232346" duration="30946000" />
+      <workItem from="1689848772251" duration="12908000" />
+      <workItem from="1690255301388" duration="216000" />
+      <workItem from="1690255602951" duration="1738000" />
+      <workItem from="1690274238888" duration="1475000" />
+      <workItem from="1690275833433" duration="848000" />
+    </task>
+    <task id="LOCAL-00001" summary="jdbc_mysql">
+      <created>1685329189450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685329189451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="jdbc_mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc_mysql" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -611,6 +611,293 @@ dao层:       dao                           Dao接口实现类
 
 
 
+1.先创建书城需要的数据库和表
+
+2.编写数据库对应的javaBean对象
+
+3.编写工具类jdbcUtils
+注意:maven导入依赖成功(刷新pom.xml文件),但引用类标红(采用:找到依赖包对应的文件夹删除,再用maven重新导入后,就可以正常引用类了)
+jdbc.properties文件内容
+username=root
+password=root
+url=jdbc:mysql://localhost:3306/jdbc_mysql?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+driverClassName=com.mysql.cj.jdbc.Driver
+initialSize=5
+maxActive=6
+
+静态代码块连接数据库
+static
+    {
+        try
+        {
+            Properties properties = new Properties();
+            //读取jdbc.properties属性配置文件(通过反射)
+            InputStream resource = JdbcUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
+            //从流中加载数据
+            properties.load(resource);
+            //创建数据库连接池
+            dataSource = (DruidDataSource) DruidDataSourceFactory.createDataSource(properties);
+
+            System.out.println(dataSource.getConnection());
+        } catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    }
+
+4.编写BaseDao
+    {
+        //使用DBUtils操作数据库
+        private QueryRunner queryRunner = new QueryRunner();
+
+        /**
+         * update()方法用来执行，insert、delete、update语句
+         *
+         * @return 如果返回-1,说明执行失败,返回其他说明影响行数
+         */
+        public int update(String sql,Object... args)
+        {
+            Connection connection = JdbcUtils.getConnection();
+            try
+            {
+                //正常情况
+                return queryRunner.update(connection,sql,args);
+            } catch(SQLException throwables)
+            {
+                throwables.printStackTrace();
+            }finally
+            {
+                JdbcUtils.close(connection);
+            }
+            //异常情况
+            return -1;
+        }
+
+        /**
+         * 查询返回一个JavaBean的sql语句
+         * @param type  返回对象类型
+         * @param sql   执行sql语句
+         * @param args  sql对应参数值
+         * @param <T>   返回类型的泛型
+         * @return
+         */
+        public <T> T queryForOne(Class<T> type,String sql,Object... args)
+        {
+            Connection connection = JdbcUtils.getConnection();
+            try
+            {
+                return queryRunner.query(connection,sql,new BeanHandler<T>(type),args);
+            } catch(SQLException throwables)
+            {
+                throwables.printStackTrace();
+            }finally
+            {
+                JdbcUtils.close(connection);
+            }
+            return null;
+        }
+
+        /**
+         * 查询返回多个JavaBean的sql语句
+         * @param type  返回对象类型
+         * @param sql   执行sql语句
+         * @param args  sql对应参数值
+         * @param <T>   返回类型的泛型
+         * @return
+         */
+        public <T>List<T> queryForList(Class<T> type,String sql,Object... args)
+        {
+            Connection connection = JdbcUtils.getConnection();
+            try
+            {
+                return queryRunner.query(connection,sql,new BeanListHandler<>(type),args);
+            } catch(SQLException throwables)
+            {
+                throwables.printStackTrace();
+            }finally
+            {
+                JdbcUtils.close(connection);
+            }
+            return null;
+        }
+
+        /**
+         * 执行返回一行一列的sql语句
+         * @param sql   执行的sql语句
+         * @param args  sql对应的参数值
+         * @return
+         */
+        public Object queryForSingleValue(String sql,Object... args)
+        {
+            Connection connection = JdbcUtils.getConnection();
+            try
+            {
+                return queryRunner.query(connection,sql,new ScalarHandler(),args);
+            } catch(Exception e)
+            {
+                e.printStackTrace();
+            }finally
+            {
+                JdbcUtils.close(connection);
+            }
+            return null;
+        }
+    }
+
+5.编写UserDao和测试类
+
+
+6.编写UserService和测试
+
+
+P169:出现500报错,未解决
+
+
+JSP跳过
+
+EL表达式
+:表达式语言
+作用:替代jsp页面中的表达式脚本在jsp页面中进行数据的输出
+EL表达式在输出数据的时候,要比JSP表达式脚本简洁
+
+格式:${表达式}
+EL表达式在输出null时,输出的是空
+JSP表达式脚本输出null,输出的是null
+EL表达式主要在JSP页面中输出数据,主要是输出与对象中的数据
+
+
+session数据在浏览器关闭后才不显示
+当四个域中有相同的key的数据的时候,EL表达式会按照四个域的从小到大的顺序进行搜索输出
+
+EL表达式输出Bean的普通属性,数组属性,List集合属性,map属性
+
+EL表达式获取属性是通过get方法来获取属性,不管属性是否定义
+
+empty运算判断数据是否为空,值为空返回true,反之false
+null,空串,值是Object数组长度为0
+
+EL表达式的11个隐含对象
+变量                      类型                      作用
+pageContext             pageContextImpl         获取jsp中的九大内置对象
+pageScope               Map<String,Object>      获取pageContext域中数据
+requestScope            Map<String,Object>      获取Request域中数据
+sessionScope            Map<String,Object>      获取session域中数据
+applicationScope        Map<String,Object>      获取ServletContext域中数据
+param                   Map<String,String>      获取请求参数值
+paramValues             Map<String,String[]>    获取多个请求参数值
+header                  Map<String,String>      获取请求头信息
+headerValues            Map<String,String>      获取请求多个头信息
+cookie                  Map<String,Cookie>      获取当前cookie请求信息
+initParam               Map<String,String>      获取web.xml配置中<context-param>上下文参数
+
+
+
+
+
+JSTL标签库                URL                                              前缀
+核心标签库(重点)           http://java.sun.com/jsp/jstl/core                 c
+格式化                    http://java.sun.com/jsp/jstl/fmt                  fmt
+函数                      http://java.sun.com/jsp/jstl/functions            fn
+
+
+使用步骤:
+1.先导入jstl标签的jar包
+2.第二步,使用taglib指令引入标签库
+
+
+core核心库使用
+作用：set标签可以往域中保存数据
+<c:set/>:set标签可以往域中保存数据
+域对象:setAttribute(key,value);
+scope属性:设置保存到那个域中
+page表示PageContext域
+request表示Request域
+session表示Session域
+application表示ServletContext域
+var属性:设置key多少
+value属性设置值多少
+
+
+文件上传和下载
+文件上传介绍:
+1.要有一个form标签,method = post请求
+2.form标签的encType属性必须为multipart/form-data值
+3.在form标签中使用input type = file添加上传的文件
+4.编写服务器(servlet程序)代码接收,处理上传的数据
+
+multipart/form-data表示提交的数据以多段(每一个表单项为一个数据项)的形式拼接,然后以二进制流的形式发送给服务器
+
+
+
+commons-upload.jar常用API介绍
+1.导入commons-fileupload.jar和commons-io.jar
+2.包内常用类
+    ServletFileupload:判断当前上传的数据格式是否是多段的格式
+    parseRequest:解析上传的数据
+    FileItem:表示每一个表单项
+
+web静态包含:<%@ include file="相对路径.html" %>
+动态获取工程路径:
+<%
+    String basePath = request.getScheme() +
+           + "://" + request.getServerName()
+           + ":" + request.getServerPort()
+           + request.getContextPath() + "/";
+%>
+    <%=basePath%>
+
+
+提示信息及回显
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
