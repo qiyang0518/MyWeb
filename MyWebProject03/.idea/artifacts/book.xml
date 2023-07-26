@@ -7,6 +7,7 @@
         <element id="directory" name="classes">
           <element id="javaee-facet-classes" facet="book/web/web" />
           <element id="module-output" name="book" />
+          <element id="javaee-facet-classes" facet="book/web/Web" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
@@ -26,6 +27,7 @@
           <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.6" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="book/web/Web" />
     </root>
   </artifact>
 </component>

@@ -2,7 +2,7 @@ package main.com.test;
 import main.com.dao.BookDao;
 import main.com.dao.impl.BookDaoImpl;
 import main.com.pojo.Book;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.math.BigDecimal;
 
@@ -11,35 +11,38 @@ import java.math.BigDecimal;
  * @version 1.0
  */
 @SuppressWarnings({"all"})
-class BookDaoImplTest
+public class BookDaoImplTest
 {
     private BookDao bookDao = new BookDaoImpl();
 
     @Test
-    void addBook()
+    public void addBook()
     {
-        bookDao.addBook(new Book(null,"钢铁是怎样炼成的","斯基",new BigDecimal(999),100000,
-                0,null));
+        bookDao.addBook(new Book(null,"钢铁是怎样炼成的","斯基",new BigDecimal(999),100000,0,null));
     }
 
     @Test
-    void deleteBookById()
-    {
-        System.out.println("Hello World!");
-    }
-
-    @Test
-    void updateBook()
+    public void deleteBookById()
     {
     }
 
     @Test
-    void queryBookById()
+    public void updateBook()
     {
     }
 
     @Test
-    void queryBooks()
+    public void queryBookById()
+    {
+    }
+
+    @Test
+    public void queryBooks()
+    {
+    }
+
+    @Test
+    public void run()
     {
     }
 }

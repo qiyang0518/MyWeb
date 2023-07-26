@@ -11,6 +11,22 @@
   <component name="ChangeListManager">
     <list default="true" id="c11552d6-2623-4c15-95ef-8e4a82161335" name="默认变更列表" comment="MVC">
       <change beforePath="$PROJECT_DIR$/../MyWebProject" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/com/test/BookDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/com/test/BookDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/book-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject04/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +61,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Jsp笔记" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="BookDaoImplTest.deleteBookById" />
+    </enabled-run-configurations>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -94,10 +115,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java_Web" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="问题" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0923361" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.44464946" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -134,16 +155,30 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookDaoImplTest.deleteBookById">
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.com.TestDemo" />
+  <component name="RunManager" selected="JUnit.BookDaoImplTest.addBook">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.*" />
+          <option name="PATTERN" value="main.com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="main.com.test" />
+      <option name="MAIN_CLASS_NAME" value="main.com.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,6 +191,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="PACKAGE_NAME" value="main.com.test" />
       <option name="MAIN_CLASS_NAME" value="main.com.test.BookDaoImplTest" />
       <option name="METHOD_NAME" value="deleteBookById" />
@@ -164,16 +201,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoImplTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.com.*" />
+          <option name="PATTERN" value="main.com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.com" />
-      <option name="MAIN_CLASS_NAME" value="main.com.TestDemo" />
+      <option name="PACKAGE_NAME" value="main.com.test" />
+      <option name="MAIN_CLASS_NAME" value="main.com.test.BookDaoImplTest" />
       <option name="METHOD_NAME" value="run" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -181,6 +218,7 @@
       </method>
     </configuration>
     <configuration name="book" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="book">
@@ -253,16 +291,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDemo.run" />
       <item itemvalue="JUnit.BookDaoImplTest.deleteBookById" />
       <item itemvalue="Tomcat 服务器.book" />
-      <item itemvalue="应用程序.TestDemo" />
+      <item itemvalue="JUnit.BookDaoImplTest.run" />
+      <item itemvalue="JUnit.BookDaoImplTest.addBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookDaoImplTest.addBook" />
+        <item itemvalue="JUnit.BookDaoImplTest.run" />
         <item itemvalue="JUnit.BookDaoImplTest.deleteBookById" />
-        <item itemvalue="JUnit.TestDemo.run" />
-        <item itemvalue="应用程序.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +330,9 @@
       <workItem from="1690274238888" duration="1475000" />
       <workItem from="1690275833433" duration="848000" />
       <workItem from="1690276999597" duration="393000" />
+      <workItem from="1690277753616" duration="3091000" />
+      <workItem from="1690337356571" duration="315000" />
+      <workItem from="1690340477119" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc_mysql">
       <created>1685329189450</created>
